@@ -1,8 +1,12 @@
-# PythonProject
+# Automated Feature Reporting
 
-# Setup for developement:
+At almost every place I've worked I've had to write one of these feature analysis tools from scratch most of the time.
+It would be nice to just "have" something available for use whenever and wherever.
+There are some tools already out there, but I'm not crazy about any of them.
 
-- Setup a python 3.x venv (usually in `.venv`)
+# Setup for development:
+
+- Setup a python >= 3.8 venv (usually in `.venv`)
   - You can run `./scripts/create-venv.sh` to generate one
 - `pip3 install --upgrade pip`
 - Install pip-tools `pip3 install pip-tools`

@@ -1,1 +1,8 @@
+# pip-compile --output-file=requirements.txt requirements.in
 numpy
+pandas
+plotly
+pycorr
+scikit-learn
+seaborn  # Useful for built in datasets
+statsmodels
