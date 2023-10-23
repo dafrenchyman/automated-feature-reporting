@@ -230,6 +230,8 @@ packaging==23.0
     #   jupyterlab-server
     #   nbconvert
     #   pytest
+pandas-stubs==2.0.3.230814
+    # via -r requirements.dev.in
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
@@ -390,6 +392,8 @@ traitlets==5.8.1
     #   nbconvert
     #   nbformat
     #   notebook
+types-pytz==2023.3.1.1
+    # via pandas-stubs
 typing-extensions==4.4.0
     # via
     #   black
